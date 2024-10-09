@@ -18,9 +18,10 @@ import Tooltip from "@mui/material/Tooltip";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
 import DeleteIcon from "@mui/icons-material/Delete";
-import FilterListIcon from "@mui/icons-material/FilterList";
 import { visuallyHidden } from "@mui/utils";
 import { useMemo, useState } from "react";
+import { FaPlus } from "react-icons/fa";
+import { Button } from "@mui/material";
 
 function createData(id, name, calories, fat, carbs, protein) {
   return {
@@ -194,7 +195,7 @@ function EnhancedTableToolbar(props) {
           id="tableTitle"
           component="div"
         >
-         Documents
+          Documents
         </Typography>
       )}
       {numSelected > 0 ? (
@@ -205,9 +206,12 @@ function EnhancedTableToolbar(props) {
         </Tooltip>
       ) : (
         <Tooltip title="Filtrer la liste">
-          <IconButton>
-            <FilterListIcon />
-          </IconButton>
+          <div className=" rounded-md px-3 py-1 btn">
+            <Button className="flex space-x-3 items-center">
+              <FaPlus className="text-xl text-white" />
+              <span className="font-bold text-xl text-white">Ajouter</span>
+            </Button>
+          </div>
         </Tooltip>
       )}
     </Toolbar>
