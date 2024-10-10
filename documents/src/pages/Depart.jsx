@@ -1,5 +1,10 @@
+import DepartTabs from "../components/depart/DepartTabs";
 
 
 export default function Depart() {
-  return <div className=" py-5 px-5">Depart</div>;
+  return( 
+    <div className=" py-5 px-5">
+      <DepartTabs />
+    </div>
+  );
 }

@@ -68,7 +68,7 @@ function getComparator(order, orderBy) {
 
 const headCells = [
   {
-    id: "name",
+    id: "nom",
     numeric: false,
     disablePadding: true,
     label: "Dessert (100g serving)",
@@ -195,7 +195,7 @@ function EnhancedTableToolbar(props) {
           id="tableTitle"
           component="div"
         >
-          Documents
+          Membres
         </Typography>
       )}
       {numSelected > 0 ? (

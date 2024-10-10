@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo/mon_logo.png"
+import logo from "../../assets/logo/evvlogo.png"
 import Button from "@mui/material/Button";
 import { BiSolidDashboard } from "react-icons/bi";
 import { HiClipboardDocument } from "react-icons/hi2";
@@ -25,9 +25,8 @@ export default function SideBar() {
     <>
       <div className="sidebar fixed top-0 left-0 z-[100] w-[20%]">
         <Link to={"/"}>
-          <div className="logo py-10 px-5 flex space-x-2">
-            <img src={logo} alt={logo} className="w-16" />
-            <h2 className="font-bold text-2xl text-slate-900 pt-5">CS.E.V.V</h2>
+          <div className="logo pb-5 -pt-0 px-5 flex space-x-2">
+            <img src={logo} alt={logo} className="w-28" />
           </div>
         </Link>
         {/* Links items */}
