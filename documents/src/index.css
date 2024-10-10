@@ -40,4 +40,5 @@ header .searchBox{border: 1px solid rgb(0, 0, 0, 0.3);overflow: hidden;border-ra
 header .searchBox:hover{border: 1px solid rgb(0, 0, 0, 0.5);}
 header .searchBox input{outline: none !important;}
 .btn{background-color: #3872fa !important;}
+.tabs{width: 100% !important;}
  

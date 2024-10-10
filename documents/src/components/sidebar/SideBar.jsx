@@ -59,6 +59,7 @@ export default function SideBar() {
               </Link>
             </li>
             <li>
+              <Link to="/depart">
                 <Button
                   className={`w-[100%] mr-6 flex justify-center items-center  ${
                     isActive === 2 && isToggleSubmenu === true ? "active" : ""
@@ -71,69 +72,67 @@ export default function SideBar() {
                   Département
                   <span
                     className={`arrow ml-auto w-[35px] h-[25px] flex justify-center items-center ${
-                      isActive === 2 && isToggleSubmenu === true
-                        ? 'rotate'
-                        : ''
+                      isActive === 2 && isToggleSubmenu === true ? "rotate" : ""
                     }`}
                   >
                     <FaAngleRight size={20} />
                   </span>
                 </Button>
+              </Link>
 
-                <div
-                  className={`submenuwrapper ${
-                    isActive === 2 && isToggleSubmenu === true
-                      ? "collapse"
-                      : "collapsed"
-                  }`}
-                >
-                  <div className="submenu">
-                    <Button className="w-[100%] mr-6 flex justify-center items-center">
-                      Pastoral
-                    </Button>
+              <div
+                className={`submenuwrapper ${
+                  isActive === 2 && isToggleSubmenu === true
+                    ? "collapse"
+                    : "collapsed"
+                }`}
+              >
+                <div className="submenu">
+                  <Button className="w-[100%] mr-6 flex justify-center items-center">
+                    Pastoral
+                  </Button>
 
-                    <Button className="w-[100%] mr-6 flex justify-center items-center">
-                      Programme
-                    </Button>
+                  <Button className="w-[100%] mr-6 flex justify-center items-center">
+                    Programme
+                  </Button>
 
-                    <Button className="w-[100%] mr-6 flex justify-center items-center">
-                      Protocol
-                    </Button>
+                  <Button className="w-[100%] mr-6 flex justify-center items-center">
+                    Protocol
+                  </Button>
 
-                    <Button className="w-[100%] mr-6 flex justify-center items-center">
-                      Culte
-                    </Button>
+                  <Button className="w-[100%] mr-6 flex justify-center items-center">
+                    Culte
+                  </Button>
 
-                    <Button className="w-[100%] mr-6 flex justify-center items-center">
-                      Social
-                    </Button>
+                  <Button className="w-[100%] mr-6 flex justify-center items-center">
+                    Social
+                  </Button>
 
-                    <Button className="w-[100%] mr-6 flex justify-center items-center">
-                      Communication
-                    </Button>
+                  <Button className="w-[100%] mr-6 flex justify-center items-center">
+                    Communication
+                  </Button>
 
-                    <Button className="w-[100%] mr-6 flex justify-center items-center">
-                      Technique
-                    </Button>
+                  <Button className="w-[100%] mr-6 flex justify-center items-center">
+                    Technique
+                  </Button>
 
-                    <Button className="w-[100%] mr-6 flex justify-center items-center">
-                      Evangelisation
-                    </Button>
+                  <Button className="w-[100%] mr-6 flex justify-center items-center">
+                    Evangelisation
+                  </Button>
 
-                    <Button className="w-[100%] mr-6 flex justify-center items-center">
-                      Maman
-                    </Button>
+                  <Button className="w-[100%] mr-6 flex justify-center items-center">
+                    Maman
+                  </Button>
 
-                    <Button className="w-[100%] mr-6 flex justify-center items-center">
-                      Décoration
-                    </Button>
+                  <Button className="w-[100%] mr-6 flex justify-center items-center">
+                    Décoration
+                  </Button>
 
-                    <Button className="w-[100%] mr-6 flex justify-center items-center">
-                      Intercetion
-                    </Button>
-                  </div>
+                  <Button className="w-[100%] mr-6 flex justify-center items-center">
+                    Intercetion
+                  </Button>
                 </div>
-              
+              </div>
             </li>
             <li>
               <Link to="/membre">
