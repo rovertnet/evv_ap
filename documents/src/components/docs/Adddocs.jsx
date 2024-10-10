@@ -1,6 +1,8 @@
 
 export default function Adddocs() {
   return (
-    <div>Adddocs</div>
+    <>
+      <div>Ajouter docs</div>
+    </>
   )
 }
