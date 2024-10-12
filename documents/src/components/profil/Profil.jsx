@@ -5,8 +5,8 @@ import { FaEdit } from "react-icons/fa";
 export default function Profil() {
   return (
     <>
-      <div className="">
-        <div className="flex justify-end h-44 w-full bg-white rounded-lg space-x-2 p-2">
+      <div className="bg-white pb-10">
+        <div className="flex justify-end h-44 w-full bg-blue-200 rounded-lg space-x-2 p-2">
           <FaEdit className="text-2xl font-bold text-gray-500" />
         </div>
         <div className="flex justify-start gap-3">
@@ -23,6 +23,7 @@ export default function Profil() {
               Développeur Web
             </span>
           </h2>
+          <hr />
         </div>
       </div>
     </>
