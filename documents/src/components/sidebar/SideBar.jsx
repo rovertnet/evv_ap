@@ -31,7 +31,7 @@ export default function SideBar() {
         </Link>
         {/* Links items */}
         <div className="sidebarTab px-5 mt-4">
-          <ul className="flex gap-5 flex-col">
+          <ul className="flex gap-3 flex-col">
             <li>
               <Link to={"/"}>
                 <Button

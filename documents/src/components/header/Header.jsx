@@ -94,10 +94,12 @@ export default function Header() {
                 }}
                 transformOrigin={{ horizontal: "right", vertical: "top" }}
                 anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
-              >
-                <MenuItem onClick={handleClose}>
-                  <Avatar /> Profile
-                </MenuItem>
+              > 
+                <Link to="/profil">
+                  <MenuItem onClick={handleClose}>
+                    <Avatar /> Profile
+                  </MenuItem>
+                </Link>
                 <MenuItem onClick={handleClose}>
                   <Avatar /> Mon compte
                 </MenuItem>

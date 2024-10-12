@@ -9,6 +9,7 @@ import Settings from "./pages/Settings";
 import Header from "./components/header/Header";
 import Adddocs from "./components/docs/Adddocs";
 import Addmembers from "./components/members/Addmembers";
+import Profils from "./pages/Profils";
 
 const MyContext = createContext();
 
@@ -39,7 +40,16 @@ function App() {
                 <Route path="/membre" exact={true} element={<Membre />} />
                 <Route path="/settings" exact={true} element={<Settings />} />
                 <Route path="/docsadd" exact={true} element={<Adddocs />} />
-                <Route path="/memberssadd" exact={true} element={<Addmembers />} />
+                <Route
+                  path="/memberssadd"
+                  exact={true}
+                  element={<Addmembers />}
+                />
+                <Route
+                  path="/profil"
+                  exact={true}
+                  element={<Profils />}
+                />
               </Routes>
             </div>
           </section>
