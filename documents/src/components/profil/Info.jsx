@@ -3,6 +3,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import { useState } from "react";
+import About from "../about/About";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -55,7 +56,7 @@ export default function Profiltabs() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        Item One
+        <About />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
         Item Two

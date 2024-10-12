@@ -1,5 +1,5 @@
 import profilimg from "../../assets/logo/moi.png"
-import { FaEdit } from "react-icons/fa";
+import { MdEdit } from "react-icons/md";
 
 
 export default function Profil() {
@@ -7,7 +7,7 @@ export default function Profil() {
     <>
       <div className="bg-white pb-10">
         <div className="flex justify-end h-44 w-full bg-blue-200 rounded-lg space-x-2 p-2">
-          <FaEdit className="text-2xl font-bold text-gray-500" />
+          <MdEdit className="text-2xl font-bold text-gray-500 cursor-pointer hover:text-slate-500" />
         </div>
         <div className="flex justify-start gap-3">
           <div className=" bg-gray-400 rounded-full py-2 px-2 w-28 h-28 -mt-14 mx-10">
