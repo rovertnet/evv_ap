@@ -7,6 +7,8 @@ import Depart from "./pages/Depart";
 import Membre from "./pages/Membre";
 import Settings from "./pages/Settings";
 import Header from "./components/header/Header";
+import Adddocs from "./components/docs/Adddocs";
+import Addmembers from "./components/members/Addmembers";
 
 const MyContext = createContext();
 
@@ -26,9 +28,8 @@ function App() {
             </div>
 
             <div className="content_Right w-[80%] ">
-
               <Header />
-              
+
               <div className="space"></div>
 
               <Routes>
@@ -37,6 +38,8 @@ function App() {
                 <Route path="/depart" exact={true} element={<Depart />} />
                 <Route path="/membre" exact={true} element={<Membre />} />
                 <Route path="/settings" exact={true} element={<Settings />} />
+                <Route path="/docsadd" exact={true} element={<Adddocs />} />
+                <Route path="/memberssadd" exact={true} element={<Addmembers />} />
               </Routes>
             </div>
           </section>

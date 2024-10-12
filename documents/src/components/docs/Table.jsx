@@ -22,6 +22,7 @@ import { visuallyHidden } from "@mui/utils";
 import { useMemo, useState } from "react";
 import { FaPlus } from "react-icons/fa";
 import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function createData(id, name, calories, fat, carbs, protein) {
   return {
@@ -205,12 +206,14 @@ function EnhancedTableToolbar(props) {
           </IconButton>
         </Tooltip>
       ) : (
-        <Tooltip title="Filtrer la liste">
+        <Tooltip title="Ajouter un document">
           <div className=" rounded-md px-3 py-1 btn">
-            <Button className="flex space-x-3 items-center">
-              <FaPlus className="text-xl text-white" />
-              <span className="font-bold text-xl text-white">Ajouter</span>
-            </Button>
+            <Link to="/docsadd">
+              <Button className="flex space-x-3 items-center">
+                <FaPlus className="text-xl text-white" />
+                <span className="font-bold text-xl text-white">Ajouter</span>
+              </Button>
+            </Link>
           </div>
         </Tooltip>
       )}
