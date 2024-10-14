@@ -10,6 +10,7 @@ import Header from "./components/header/Header";
 import Adddocs from "./components/docs/Adddocs";
 import Addmembers from "./components/members/Addmembers";
 import Profils from "./pages/Profils";
+import Login from "./components/authentic/SignUp";
 
 const MyContext = createContext();
 
@@ -30,9 +31,7 @@ function App() {
 
             <div className="content_Right w-[80%] ">
               <Header />
-
               <div className="space"></div>
-
               <Routes>
                 <Route path="/" exact={true} element={<Dashboard />} />
                 <Route path="/docs" exact={true} element={<Docs />} />
@@ -45,14 +44,11 @@ function App() {
                   exact={true}
                   element={<Addmembers />}
                 />
-                <Route
-                  path="/profil"
-                  exact={true}
-                  element={<Profils />}
-                />
-              </Routes>
+                <Route path="/profil" exact={true} element={<Profils />} />
+              </Routes>{" "}
             </div>
           </section>
+         
         </MyContext.Provider>
       </BrowserRouter>
     </>

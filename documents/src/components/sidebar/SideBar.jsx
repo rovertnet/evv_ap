@@ -30,8 +30,8 @@ export default function SideBar() {
           </div>
         </Link>
         {/* Links items */}
-        <div className="sidebarTab px-5 mt-4">
-          <ul className="flex gap-3 flex-col">
+        <div className="sidebarTab px-5 mt-4 mb-5">
+          <ul className="flex gap-3 flex-col py-3">
             <li>
               <Link to={"/"}>
                 <Button

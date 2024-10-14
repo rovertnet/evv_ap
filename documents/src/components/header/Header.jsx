@@ -94,7 +94,7 @@ export default function Header() {
                 }}
                 transformOrigin={{ horizontal: "right", vertical: "top" }}
                 anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
-              > 
+              >
                 <Link to="/profil">
                   <MenuItem onClick={handleClose}>
                     <Avatar /> Profile
@@ -120,7 +120,7 @@ export default function Header() {
                   <ListItemIcon>
                     <Logout fontSize="small" />
                   </ListItemIcon>
-                  Déconnecter
+                  <Link to="/login">Déconnecter</Link>
                 </MenuItem>
               </Menu>
             </li>

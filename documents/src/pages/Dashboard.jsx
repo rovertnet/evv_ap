@@ -1,4 +1,4 @@
-import TabControl from "../components/docs/Tabs";
+import Table from "../components/docs/Table";
 import Count from "../components/TB/Count";
 
 
@@ -8,7 +8,7 @@ export default function Dashboard() {
       <Count />
 
       <div className="pt-10">
-        <TabControl />
+        <Table />
       </div>
     </div>
   );
