@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import SideBar from "./components/sidebar/SideBar"
 import Dashboard from "./pages/Dashboard"
-import { createContext } from "react"
+import { createContext, useState } from "react"
 import Docs from "./pages/Docs";
 import Depart from "./pages/Depart";
 import Membre from "./pages/Membre";
@@ -10,7 +10,6 @@ import Header from "./components/header/Header";
 import Adddocs from "./components/docs/Adddocs";
 import Addmembers from "./components/members/Addmembers";
 import Profils from "./pages/Profils";
-import Login from "./components/authentic/SignUp";
 
 const MyContext = createContext();
 
@@ -48,7 +47,6 @@ function App() {
               </Routes>{" "}
             </div>
           </section>
-         
         </MyContext.Provider>
       </BrowserRouter>
     </>

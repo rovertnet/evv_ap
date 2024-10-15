@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, Drawer } from "@mui/material";
 import { FaBell } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -15,17 +15,25 @@ import Logout from "@mui/icons-material/Logout";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+import { FaRegCircleUser } from "react-icons/fa6";
+
+
 
 
 export default function Header() {
 
   const [anchorEl, setAnchorEl] = useState(null);
+  const [opend, setOpen] = useState(false);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
   const handleClose = () => {
     setAnchorEl(null);
+  };
+
+  const toggleDrawer = (newOpen) => () => {
+    setOpen(newOpen);
   };
 
   return (
@@ -42,9 +50,98 @@ export default function Header() {
         <div className="ml-auto part2">
           <ul className="flex justify-center items-center gap-3">
             <li>
-              <Button>
+              <Button onClick={toggleDrawer(true)}>
                 <IoMdMail size={30} />
               </Button>
+
+              <Drawer
+                open={opend}
+                onClose={toggleDrawer(false)}
+                anchor={"right"}
+                className=""
+              >
+                <div className="bg-white px-7 py-4 flx flex-col">
+                  <h2 className="font-extrabold text-center text-2xl text-black capitalize py-5">
+                    La boite de reception
+                  </h2>
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <div className="flex space-x-5 py-5">
+                    <FaRegCircleUser className="text-gray-500 text-2xl" />
+                    <span className="font-bold text-xl text-slate-800 flex justify-between items-center">
+                      Robert Yamba
+                    </span>
+                    <span className="text-sm text-gray-400 font-medium pt-1">
+                      il y a 1h
+                    </span>
+                  </div>
+
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <div className="flex space-x-3 py-5">
+                    <FaRegCircleUser className="text-gray-500 text-2xl" />
+                    <span className="font-bold text-xl text-slate-800">
+                      Danny Mayele
+                    </span>
+                    <span className="text-sm text-gray-400 font-medium pt-1">
+                      il y a 1h
+                    </span>
+                  </div>
+
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <div className="flex space-x-3 py-5">
+                    <FaRegCircleUser className="text-gray-500 text-2xl" />
+                    <span className="font-bold text-xl text-slate-800">
+                      Josué Manteka
+                    </span>
+                    <span className="text-sm text-gray-400 font-medium pt-1">
+                      il y a 1h
+                    </span>
+                  </div>
+
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <div className="flex space-x-3 py-5">
+                    <FaRegCircleUser className="text-gray-500 text-2xl" />
+                    <span className="font-bold text-xl text-slate-800">
+                      Gloire Matundu
+                    </span>
+                    <span className="text-sm text-gray-400 font-medium pt-1">
+                      il y a 1h
+                    </span>
+                  </div>
+
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <div className="flex space-x-3 py-5">
+                    <FaRegCircleUser className="text-gray-500 text-2xl" />
+                    <span className="font-bold text-xl text-slate-800">
+                      Elie Matundu
+                    </span>
+                    <span className="text-sm text-gray-400 font-medium pt-1">
+                      il y a 1h
+                    </span>
+                  </div>
+
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <div className="flex space-x-3 py-5">
+                    <FaRegCircleUser className="text-gray-500 text-2xl" />
+                    <span className="font-bold text-xl text-slate-800">
+                      Elie Matundu
+                    </span>
+                    <span className="text-sm text-gray-400 font-medium pt-1">
+                      il y a 1h
+                    </span>
+                  </div>
+
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <div className="flex space-x-3 py-5">
+                    <FaRegCircleUser className="text-gray-500 text-2xl" />
+                    <span className="font-bold text-xl text-slate-800">
+                      Elie Matundu
+                    </span>
+                    <span className="text-sm text-gray-400 font-medium pt-1">
+                      il y a 1h
+                    </span>
+                  </div>
+                </div>
+              </Drawer>
             </li>
 
             <li>
