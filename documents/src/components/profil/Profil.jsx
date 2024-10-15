@@ -6,7 +6,7 @@ export default function Profil() {
   return (
     <>
       <div className="bg-white pb-10">
-        <div className="flex justify-end h-44 w-full bg-blue-200 rounded-lg space-x-2 p-2">
+        <div className="flex justify-end h-44 w-full bg-blue-200 rounded-tl-lg rounded-tr-lg space-x-2 p-2">
           <MdEdit className="text-2xl font-bold text-gray-500 cursor-pointer hover:text-slate-500" />
         </div>
         <div className="flex justify-start gap-3">

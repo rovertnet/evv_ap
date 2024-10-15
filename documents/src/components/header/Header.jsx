@@ -16,7 +16,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { FaRegCircleUser } from "react-icons/fa6";
-
+import { FaRegEye } from "react-icons/fa6";
 
 
 
@@ -60,16 +60,87 @@ export default function Header() {
                 anchor={"right"}
                 className=""
               >
-                <div className="bg-white px-7 py-4 flx flex-col">
-                  <h2 className="font-extrabold text-center text-2xl text-black capitalize py-5">
-                    La boite de reception
-                  </h2>
+                <h2 className="font-extrabold text-center text-2xl text-slate-600 capitalize py-5 px-5">
+                  La boite de reception
+                </h2>
+                <div className="bg-white px-7 py-4 flx flex-col overflow-scroll">
                   <hr className="text-gray-400 w-full pt-1" />
-                  <div className="flex space-x-5 py-5">
+                  <Button className="">
+                    <div className="flex space-x-3 py-5">
+                      <FaRegCircleUser className="text-gray-500 text-2xl" />
+                      <span className="font-bold text-xl text-slate-800 flex justify-between items-center">
+                        Robert Yamba
+                      </span>
+                      <FaRegEye className="text-gray-500 text-2xl" />
+                      <span className="text-sm text-gray-400 font-medium pt-1">
+                        il y a 1h
+                      </span>
+                    </div>
+                  </Button>
+
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <Button>
+                    <div className="flex space-x-3 py-5">
+                      <FaRegCircleUser className="text-gray-500 text-2xl" />
+                      <span className="font-bold text-xl text-slate-800">
+                        Danny Mayele
+                      </span>
+                      <FaRegEye className="text-gray-500 text-2xl" />
+                      <span className="text-sm text-gray-400 font-medium pt-1">
+                        il y a 1h
+                      </span>
+                    </div>
+                  </Button>
+
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <Button>
+                    <div className="flex space-x-3 py-5">
+                      <FaRegCircleUser className="text-gray-500 text-2xl" />
+                      <span className="font-bold text-xl text-slate-800">
+                        Josué Manteka
+                      </span>
+                      <FaRegEye className="text-gray-500 text-2xl" />
+                      <span className="text-sm text-gray-400 font-medium pt-1">
+                        il y a 1h
+                      </span>
+                    </div>
+                  </Button>
+
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <Button>
+                    <div className="flex space-x-3 py-5">
+                      <FaRegCircleUser className="text-gray-500 text-2xl" />
+                      <span className="font-bold text-xl text-slate-800">
+                        Gloire Matundu
+                      </span>
+                      <FaRegEye className="text-gray-500 text-2xl" />
+                      <span className="text-sm text-gray-400 font-medium pt-1">
+                        il y a 1h
+                      </span>
+                    </div>
+                  </Button>
+
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <Button>
+                    <div className="flex space-x-3 py-5">
+                      <FaRegCircleUser className="text-gray-500 text-2xl" />
+                      <span className="font-bold text-xl text-slate-800">
+                        Elie Matundu
+                      </span>
+                      <FaRegEye className="text-gray-500 text-2xl" />
+                      <span className="text-sm text-gray-400 font-medium pt-1">
+                        il y a 1h
+                      </span>
+                    </div>
+                  </Button>
+
+                  <hr className="text-gray-400 w-full pt-1" />
+                  <div className="flex space-x-3 py-5">
                     <FaRegCircleUser className="text-gray-500 text-2xl" />
-                    <span className="font-bold text-xl text-slate-800 flex justify-between items-center">
-                      Robert Yamba
+                    <span className="font-bold text-xl text-slate-800">
+                      Elie Matundu
                     </span>
+                    <FaRegEye className="text-gray-500 text-2xl" />
                     <span className="text-sm text-gray-400 font-medium pt-1">
                       il y a 1h
                     </span>
@@ -79,8 +150,9 @@ export default function Header() {
                   <div className="flex space-x-3 py-5">
                     <FaRegCircleUser className="text-gray-500 text-2xl" />
                     <span className="font-bold text-xl text-slate-800">
-                      Danny Mayele
+                      Elie Matundu
                     </span>
+                    <FaRegEye className="text-gray-500 text-2xl" />
                     <span className="text-sm text-gray-400 font-medium pt-1">
                       il y a 1h
                     </span>
@@ -90,19 +162,9 @@ export default function Header() {
                   <div className="flex space-x-3 py-5">
                     <FaRegCircleUser className="text-gray-500 text-2xl" />
                     <span className="font-bold text-xl text-slate-800">
-                      Josué Manteka
+                      Elie Matundu
                     </span>
-                    <span className="text-sm text-gray-400 font-medium pt-1">
-                      il y a 1h
-                    </span>
-                  </div>
-
-                  <hr className="text-gray-400 w-full pt-1" />
-                  <div className="flex space-x-3 py-5">
-                    <FaRegCircleUser className="text-gray-500 text-2xl" />
-                    <span className="font-bold text-xl text-slate-800">
-                      Gloire Matundu
-                    </span>
+                    <FaRegEye className="text-gray-500 text-2xl" />
                     <span className="text-sm text-gray-400 font-medium pt-1">
                       il y a 1h
                     </span>
