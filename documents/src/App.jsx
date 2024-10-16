@@ -37,10 +37,10 @@ function App() {
               </div>
             )}
 
-            <div className="content_Right w-[80%] ">
-              {isHeaderFooterShow === false && (
-                <Header />
-              )}
+            <div
+              className={`content_Right w-[${isHeaderFooterShow === false ? '80%' : '100%'}]`}
+            >
+              {isHeaderFooterShow === false && <Header />}
               <div className="space"></div>
               <Routes>
                 <Route path="/" exact={true} element={<Dashboard />} />

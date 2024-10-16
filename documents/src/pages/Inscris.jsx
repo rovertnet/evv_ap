@@ -1,10 +1,12 @@
+import SignHeader from "../components/authentic/SignHeader";
 import Login from "../components/authentic/SignUp";
 
 export default function Inscris() {
 
   return (
     <>
-      <div className="px-10 py-10">
+      <SignHeader />
+      <div className="px-5">
         <Login />
       </div>
     </>
