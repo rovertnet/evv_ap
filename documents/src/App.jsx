@@ -10,13 +10,20 @@ import Header from "./components/header/Header";
 import Adddocs from "./components/docs/Adddocs";
 import Addmembers from "./components/members/Addmembers";
 import Profils from "./pages/Profils";
+import Inscris from "./pages/Inscris";
 
 const MyContext = createContext();
 
 function App() {
 
-  const values = {
+  const [isLogin, setIsLogin] = useState(false);
+  const [isHeaderFooterShow, setIsHeaderFooterShow] = useState(false)
 
+  const values = {
+    isLogin,
+    setIsLogin,
+    isHeaderFooterShow,
+    setIsHeaderFooterShow
   }
 
   return (
@@ -24,12 +31,16 @@ function App() {
       <BrowserRouter>
         <MyContext.Provider value={values}>
           <section className="main flex">
-            <div className="sidebarWrapper w-[20%]">
-              <SideBar />
-            </div>
+            {isHeaderFooterShow === false && (
+              <div className="sidebarWrapper w-[20%]">
+                <SideBar />
+              </div>
+            )}
 
             <div className="content_Right w-[80%] ">
-              <Header />
+              {isHeaderFooterShow === false && (
+                <Header />
+              )}
               <div className="space"></div>
               <Routes>
                 <Route path="/" exact={true} element={<Dashboard />} />
@@ -44,7 +55,8 @@ function App() {
                   element={<Addmembers />}
                 />
                 <Route path="/profil" exact={true} element={<Profils />} />
-              </Routes>{" "}
+                <Route path="/login" exact={true} element={<Inscris />} />
+              </Routes>
             </div>
           </section>
         </MyContext.Provider>
@@ -54,3 +66,4 @@ function App() {
 }
 
 export default App
+export { MyContext}
