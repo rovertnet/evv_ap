@@ -16,9 +16,9 @@ export default function Login() {
 
   return (
     <>
-      <div className=" rounded-lg px-16 py-5 h-full w-full ">
-        <div className="border-[1px] border-gray-300 rounded-lg py-5 px-5 ml-28 mr-28 bg-white">
-          <h2 className="font-extrabold text-2xl text-center text-gray-700 pb-10">
+      <div className=" ">
+        <div className="border-[1px] border-gray-300 rounded-lg py-5 px-5 ml-36 mr-36 bg-white">
+          <h2 className="font-extrabold text-2xl text-center text-gray-700 pb-14">
             Connexion
           </h2>
           <div className="flex justify-center items-center space-x-8">
@@ -57,6 +57,9 @@ export default function Login() {
                   className="mdp w-36 py-3"
                 />
               </Box>
+              <div className=" py-5 text-center">
+                <button className="mdp rounded-lg px-5 text-xl font-bold text-slate-50 py-2 bg-blue-600 hover:bg-blue-800 transition duration-300" type="submit">Se connecter</button>
+              </div>
             </div>
           </form>
         </div>

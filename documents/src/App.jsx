@@ -32,16 +32,23 @@ function App() {
         <MyContext.Provider value={values}>
           <section className="main flex">
             {isHeaderFooterShow === false && (
-              <div className="sidebarWrapper w-[20%]">
+              <div className="sidebarWrapper w-[15%]">
                 <SideBar />
               </div>
             )}
 
             <div
-              className={`content_Right w-[${isHeaderFooterShow === false ? '80%' : '100%'}]`}
+              className={`content_Right w-[${
+                isHeaderFooterShow === false ? "85%" : "80%"
+              }] pl-5`}
             >
-              {isHeaderFooterShow === false && <Header />}
-              <div className="space"></div>
+              {isHeaderFooterShow === false && (
+                <>
+                  <Header /> 
+                  <div className="space"></div>
+                </>
+              )}
+
               <Routes>
                 <Route path="/" exact={true} element={<Dashboard />} />
                 <Route path="/docs" exact={true} element={<Docs />} />
