@@ -6,7 +6,7 @@ export default function Inscris() {
   return (
     <>
       <SignHeader />
-      <div className="px-5">
+      <div className="py-5">
         <Login />
       </div>
     </>
