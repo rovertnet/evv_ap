@@ -1,6 +1,5 @@
 import Table from "../components/docs/Table";
 import Count from "../components/TB/Count";
-import SwipeableTemporaryDrawer from "../components/util/Drawer";
 
 
 export default function Dashboard() {
@@ -10,7 +9,6 @@ export default function Dashboard() {
 
       <div className="pt-10">
         <Table />
-        <SwipeableTemporaryDrawer />
       </div>
     </div>
   );

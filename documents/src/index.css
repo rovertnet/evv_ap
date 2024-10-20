@@ -45,3 +45,6 @@ header .searchBox input{outline: none !important;}
  
 .main .sidebarWrapper .sidebar .sidebarTab ul{max-height: 90vh;overflow: scroll;overflow-x: hidden;padding-bottom: 110px !important;}
 .mdp {width: 70% !important;}
+
+.content_right.padding{padding: 0px 0px !important;width: 100% !important;}
+
