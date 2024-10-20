@@ -11,6 +11,7 @@ import Adddocs from "./components/docs/Adddocs";
 import Addmembers from "./components/members/Addmembers";
 import Profils from "./pages/Profils";
 import Inscris from "./pages/Inscris";
+import Pastorals from "./pages/Pastorals";
 
 const MyContext = createContext();
 
@@ -37,7 +38,7 @@ function App() {
               </div>
             )}
 
-            <div className="content_right w-[80%] px-10">
+            <div className="content_right w-[80%] px-7">
               {/* {`content_Right w-[${
                 isHeaderFooterShow === false ? "80%" : "100%"
               }] pl-32 pr-32`} */}
@@ -62,6 +63,7 @@ function App() {
                 />
                 <Route path="/profil" exact={true} element={<Profils />} />
                 <Route path="/login" exact={true} element={<Inscris />} />
+                <Route path="/depart/past" exact={true} element={<Pastorals />} />
               </Routes>
             </div>
           </section>

@@ -14,7 +14,7 @@ import { useState } from "react";
 export default function SideBar() {
 
   const [isActive, setIsActive] = useState(0)
-  const [isToggleSubmenu, setIsToggleSubmenu] = useState(false)
+  const [isToggleSubmenu, setIsToggleSubmenu] = useState(true)
 
   const isOpenSubmenu = (index) =>{
     setIsActive(index)
@@ -30,8 +30,8 @@ export default function SideBar() {
           </div>
         </Link>
         {/* Links items */}
-        <div className="sidebarTab px-5 mt-4 mb-5">
-          <ul className="flex gap-3 flex-col py-3">
+        <div className="sidebarTab px-5 mt-4">
+          <ul className="flex gap-3 flex-col">
             <li>
               <Link to={"/"}>
                 <Button
@@ -59,7 +59,7 @@ export default function SideBar() {
               </Link>
             </li>
             <li>
-              <Link to="/depart">
+              <Link to="#">
                 <Button
                   className={`w-[100%] mr-6 flex justify-center items-center  ${
                     isActive === 2 && isToggleSubmenu === true ? "active" : ""
@@ -88,9 +88,11 @@ export default function SideBar() {
                 }`}
               >
                 <div className="submenu">
-                  <Button className="w-[100%] mr-6 flex justify-center items-center">
-                    Pastoral
-                  </Button>
+                  <Link to="/depart/past">
+                    <Button className="w-[100%] mr-6 flex justify-center items-center">
+                      Pastoral
+                    </Button>
+                  </Link>
 
                   <Button className="w-[100%] mr-6 flex justify-center items-center">
                     Programme

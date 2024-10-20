@@ -11,7 +11,7 @@ body{background-color: #f1f1f1; font-family: "Poppins", sans-serif;}
 .main .sidebarWrapper .sidebar .sidebarTab ul{width: 100%; margin-bottom: 0px;}
 .main .sidebarWrapper .sidebar .sidebarTab ul li{list-style-type: none;width: 100%;}
 
-.main .sidebarWrapper .sidebar .sidebarTab Button{justify-content: flex-start !important; color: #323131; text-transform: capitalize; font-weight: 600; font-size: 1.1rem; border-radius: 10px !important; padding: 10px !important;}
+.main .sidebarWrapper .sidebar .sidebarTab Button{justify-content: flex-start !important; color: #323131; text-transform: capitalize; font-weight: 600; font-size: 1.1rem; border-radius: 10px !important; padding: 2px !important;}
 .main .sidebarWrapper .sidebar .sidebarTab Button svg{font-size: 20px;}
 .main .sidebarWrapper .sidebar .sidebarTab Button .arrow svg{font-size: 14px !important;}
 .main .sidebarWrapper .sidebar .sidebarTab Button:hover{background-color: #e8e7e7 !important;}
@@ -25,9 +25,9 @@ body{background-color: #f1f1f1; font-family: "Poppins", sans-serif;}
 .main .sidebarWrapper .sidebar .sidebarTab li .submenu button::before{display: none;}
 .main .sidebarWrapper .sidebar .sidebarTab li .submenu button::after{content: "";width: 5px;height: 5px;background-color: #ccc;position: absolute;border-radius: 100%;top: 47%;left: 10%;}
 .main .sidebarWrapper .sidebar .sidebarTab li .submenu button{padding: 4px 20px 4px 40px !important;font-weight: 400;color: rgb(0, 0,0,0.7);justify-content: flex-start !important;}
-.main .sidebarWrapper .sidebar .sidebarTab li .submenuwrapper{transition: all 0.4s;height: 0px;overflow: hidden;opacity: 0;}
+.main .sidebarWrapper .sidebar .sidebarTab li .submenuwrapper{transition: all 6000s ease-out;height: 0px;opacity: 100;}
 .main .sidebarWrapper .sidebar .sidebarTab li .submenuwrapper.collapsed .submenu{opacity: 0;}
-.main .sidebarWrapper .sidebar .sidebarTab li .submenuwrapper.collapse{height: auto;opacity: 1;padding: 10px 0px;}
+.main .sidebarWrapper .sidebar .sidebarTab li .submenuwrapper.collapse{height: auto;opacity: 2;padding: 10px 0px;}
 .main .sidebarWrapper .sidebar .sidebarTab li .submenuwrapper.collapse .submenu{opacity: 1;height: auto;}
 .main .sidebarWrapper .sidebar .sidebarTab .arrow{transition: all 0.3s;}
 .main .sidebarWrapper .sidebar .sidebarTab .arrow.rotate{transform: rotate(90deg);}
@@ -43,5 +43,5 @@ header .searchBox input{outline: none !important;}
 .tabs{width: 100% !important;}
 .tabs-header{text-align: right !important;}
  
-.main .sidebarWrapper .sidebar .sidebarTab ul{max-height: 90vh;overflow: scroll;overflow-x: hidden;padding-bottom: 50px;}
+.main .sidebarWrapper .sidebar .sidebarTab ul{max-height: 90vh;overflow: scroll;overflow-x: hidden;padding-bottom: 110px !important;}
 .mdp {width: 70% !important;}
