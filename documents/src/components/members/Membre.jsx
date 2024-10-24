@@ -207,7 +207,9 @@ function EnhancedTableToolbar(props) {
       ) : (
         <Tooltip title="ajouter">
           <div className=" rounded-md px-3 py-1 btn">
-            <Button className="flex space-x-3 items-center">
+            <Button
+              className="flex space-x-3 items-center"
+            >
               <FaPlus className="text-xl text-white" />
               <span className="font-bold text-xl text-white">Ajouter</span>
             </Button>
