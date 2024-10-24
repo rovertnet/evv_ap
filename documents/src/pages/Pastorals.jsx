@@ -1,7 +1,9 @@
-
+import Pastoral  from "../components/depart/departs/Postoral"
 
 export default function Pastorals() {
   return (
-    <div>Pastorals</div>
+    <>
+      <Pastoral />
+    </>
   )
 }

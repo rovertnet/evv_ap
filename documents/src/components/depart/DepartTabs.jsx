@@ -4,7 +4,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Membres from "../members/Membre";
+import Pastoral from "./departs/Postoral"
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -81,7 +81,7 @@ export default function VerticalTabs() {
         <Tab label="Chorale" {...a11yProps(6)} />
       </Tabs>
       <TabPanel value={value} index={0} className="w-full">
-        <Membres />
+        <Pastoral />
       </TabPanel>
       <TabPanel value={value} index={1}>
         Item Two
