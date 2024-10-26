@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import { FaPlus } from "react-icons/fa";
+import TablePast from "./TablePast";
 
 
 export default function Postoral() {
@@ -16,6 +17,7 @@ export default function Postoral() {
           </Button>
         </div>
       </div>
+      <TablePast />
     </>
   );
 }
