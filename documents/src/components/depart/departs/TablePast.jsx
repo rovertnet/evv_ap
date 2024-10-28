@@ -6,7 +6,7 @@ export default function TablePast() {
       <div className="bg-white w-full px-5 py-3 table-responsive">
         <table className="table w-[100%] table-striped">
           <thead>
-            <th>
+            <th className="flex justify-between items-center">
               <tr>#</tr>
               <tr>Nom</tr>
               <tr>Post-nom</tr>
