@@ -1,6 +1,8 @@
-import { TextField } from "@mui/material";
+import { Button, TextField } from "@mui/material";
 import { FaEye } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { IoPersonAddOutline } from "react-icons/io5";
+
 
 export default function AddPast() {
   return (
@@ -66,6 +68,26 @@ export default function AddPast() {
               className=" w-full py-3"
             />
           </div>
+          <div className="grid grid-cols-1 gap-5 py-5">
+            <TextField
+              id="outlined-basic"
+              label="Téléphone"
+              variant="outlined"
+              type="text"
+              className=" w-full py-3"
+            />
+
+            <TextField
+              id="outlined-basic"
+              label="Téléphone"
+              variant="outlined"
+              type="file"
+              className=" w-full py-3"
+            />
+          </div>
+
+          <button type="submit" className="px-10 py-3 font-bold text-xl text-"></button>
+          
         </form>
       </div>
     </>
