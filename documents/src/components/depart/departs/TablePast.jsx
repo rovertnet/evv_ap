@@ -5,16 +5,16 @@ export default function TablePast() {
     <>
       <div className="bg-white w-full px-5 py-3 table-responsive">
         <table className="table w-[100%] table-striped">
-          <thead className="table-header">
-            <th>
-              <tr>#</tr>
-              <tr>Nom</tr>
-              <tr>Post-nom</tr>
-              <tr>Pré-nom</tr>
-              <tr>Téléphone</tr>
-              <tr>Statut</tr>
-              <tr>Options</tr>
-            </th>
+          <thead className="table-light">
+            <tr>
+              <th>#</th>
+              <th>Nom</th>
+              <th>Post-nom</th>
+              <th>Pré-nom</th>
+              <th>Téléphone</th>
+              <th>Statut</th>
+              <th>Options</th>
+            </tr>
           </thead>
         </table>
       </div>
