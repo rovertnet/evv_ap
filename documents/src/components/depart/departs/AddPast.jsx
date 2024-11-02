@@ -44,6 +44,14 @@ export default function AddPast() {
 
             <TextField
               id="outlined-basic"
+              label="Sexe"
+              variant="outlined"
+              type=""
+              className=" w-full py-3"
+            />
+
+            <TextField
+              id="outlined-basic"
               label="Adresse E-mail"
               variant="outlined"
               type="mail"
