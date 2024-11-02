@@ -13,6 +13,15 @@ export default function AddPast() {
             <FaEye className="text-2xl font-bold text-slate-900" />
           </Link>
         </div>
+
+        {/* form */}
+        <form action="" method="POST" className="">
+          <div className="grid grid-cols-2 gap-5">
+            <div className="">
+              
+            </div>
+          </div>
+        </form>
       </div>
     </>
   );
