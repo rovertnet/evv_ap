@@ -12,6 +12,7 @@ import Addmembers from "./components/members/Addmembers";
 import Profils from "./pages/Profils";
 import Inscris from "./pages/Inscris";
 import Pastorals from "./pages/Pastorals";
+import AddPast from "./components/depart/departs/AddPast";
 
 const MyContext = createContext();
 
@@ -63,7 +64,16 @@ function App() {
                 />
                 <Route path="/profil" exact={true} element={<Profils />} />
                 <Route path="/login" exact={true} element={<Inscris />} />
-                <Route path="/depart/past" exact={true} element={<Pastorals />} />
+                <Route
+                  path="/depart/past"
+                  exact={true}
+                  element={<Pastorals />}
+                />
+                <Route
+                  path="/depart/addpast"
+                  exact={true}
+                  element={<AddPast />}
+                />
               </Routes>
             </div>
           </section>
