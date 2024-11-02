@@ -16,7 +16,7 @@ export default function AddPast() {
         </div>
 
         {/* form */}
-        <form action="" method="POST" className=" py-8">
+        <form action="" method="POST" className=" pt-20 pb-5">
           <div className="grid grid-cols-2 gap-5">
             <TextField
               id="outlined-basic"
@@ -45,6 +45,14 @@ export default function AddPast() {
             <TextField
               id="outlined-basic"
               label="Adresse E-mail"
+              variant="outlined"
+              type="mail"
+              className=" w-full py-3"
+            />
+
+            <TextField
+              id="outlined-basic"
+              label="Téléphone"
               variant="outlined"
               type="text"
               className=" w-full py-3"
