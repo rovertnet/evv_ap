@@ -41,6 +41,14 @@ export default function AddPast() {
               type="text"
               className=" w-full py-3"
             />
+
+            <TextField
+              id="outlined-basic"
+              label="Nom"
+              variant="outlined"
+              type="text"
+              className=" w-full py-3"
+            />
           </div>
         </form>
       </div>
