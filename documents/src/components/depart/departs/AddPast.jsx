@@ -28,7 +28,7 @@ export default function AddPast() {
 
             <TextField
               id="outlined-basic"
-              label="Nom"
+              label="Post-Nom"
               variant="outlined"
               type="text"
               className=" w-full py-3"
@@ -36,7 +36,7 @@ export default function AddPast() {
 
             <TextField
               id="outlined-basic"
-              label="Nom"
+              label="Pré-Nom"
               variant="outlined"
               type="text"
               className=" w-full py-3"
