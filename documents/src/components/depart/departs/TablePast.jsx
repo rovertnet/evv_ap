@@ -8,6 +8,7 @@ export default function TablePast() {
           <thead className="table-light">
             <tr>
               <th>#</th>
+              <th>Photo</th>
               <th>Nom</th>
               <th>Post-nom</th>
               <th>Pré-nom</th>
