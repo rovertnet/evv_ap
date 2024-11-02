@@ -1,3 +1,4 @@
+import { TextField } from "@mui/material";
 import { FaEye } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -15,11 +16,31 @@ export default function AddPast() {
         </div>
 
         {/* form */}
-        <form action="" method="POST" className="">
+        <form action="" method="POST" className=" py-8">
           <div className="grid grid-cols-2 gap-5">
-            <div className="">
-              
-            </div>
+            <TextField
+              id="outlined-basic"
+              label="Nom"
+              variant="outlined"
+              type="text"
+              className=" w-full py-3"
+            />
+
+            <TextField
+              id="outlined-basic"
+              label="Nom"
+              variant="outlined"
+              type="text"
+              className=" w-full py-3"
+            />
+
+            <TextField
+              id="outlined-basic"
+              label="Nom"
+              variant="outlined"
+              type="text"
+              className=" w-full py-3"
+            />
           </div>
         </form>
       </div>
