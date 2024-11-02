@@ -19,80 +19,82 @@ export default function AddPast() {
 
         {/* form */}
         <form action="" method="POST" className=" pt-20 pb-5">
-          <div className="grid grid-cols-2 gap-5">
-            <TextField
-              id="outlined-basic"
-              label="Nom"
-              variant="outlined"
-              type="text"
-              className=" w-full py-3"
-            />
+          <div className=" border-[1px]">
+            <div className="grid grid-cols-2 gap-5">
+              <TextField
+                id="outlined-basic"
+                label="Nom"
+                variant="outlined"
+                type="text"
+                className=" w-full py-3"
+              />
 
-            <TextField
-              id="outlined-basic"
-              label="Post-Nom"
-              variant="outlined"
-              type="text"
-              className=" w-full py-3"
-            />
+              <TextField
+                id="outlined-basic"
+                label="Post-Nom"
+                variant="outlined"
+                type="text"
+                className=" w-full py-3"
+              />
 
-            <TextField
-              id="outlined-basic"
-              label="Pré-Nom"
-              variant="outlined"
-              type="text"
-              className=" w-full py-3"
-            />
+              <TextField
+                id="outlined-basic"
+                label="Pré-Nom"
+                variant="outlined"
+                type="text"
+                className=" w-full py-3"
+              />
 
-            <TextField
-              id="outlined-basic"
-              label="Sexe"
-              variant="outlined"
-              type=""
-              className=" w-full py-3"
-            />
+              <TextField
+                id="outlined-basic"
+                label="Sexe"
+                variant="outlined"
+                type=""
+                className=" w-full py-3"
+              />
 
-            <TextField
-              id="outlined-basic"
-              label="Adresse E-mail"
-              variant="outlined"
-              type="mail"
-              className=" w-full py-3"
-            />
+              <TextField
+                id="outlined-basic"
+                label="Adresse E-mail"
+                variant="outlined"
+                type="mail"
+                className=" w-full py-3"
+              />
 
-            <TextField
-              id="outlined-basic"
-              label="Téléphone"
-              variant="outlined"
-              type="text"
-              className=" w-full py-3"
-            />
+              <TextField
+                id="outlined-basic"
+                label="Téléphone"
+                variant="outlined"
+                type="text"
+                className=" w-full py-3"
+              />
+            </div>
+            <div className="grid grid-cols-1 gap-5 py-5">
+              <TextField
+                id="outlined-basic"
+                label="Téléphone"
+                variant="outlined"
+                type="text"
+                className=" w-full py-3"
+              />
+
+              <TextField
+                id="outlined-basic"
+                label="Téléphone"
+                variant="outlined"
+                type="file"
+                className=" w-full py-3"
+              />
+            </div>
+
+            <button
+              type="submit"
+              className="px-10 py-3 font-bold text-xl bg-blue-700 hover:bg-blue-600 text-white rounded-md flex space-x-7 w-full justify-center items-center"
+            >
+              <IoPersonAddOutline />
+              <span>Ajouter</span>
+            </button>
           </div>
-          <div className="grid grid-cols-1 gap-5 py-5">
-            <TextField
-              id="outlined-basic"
-              label="Téléphone"
-              variant="outlined"
-              type="text"
-              className=" w-full py-3"
-            />
-
-            <TextField
-              id="outlined-basic"
-              label="Téléphone"
-              variant="outlined"
-              type="file"
-              className=" w-full py-3"
-            />
-          </div>
-
-          <button
-            type="submit"
-            className="px-10 py-3 font-bold text-xl bg-blue-700 hover:bg-blue-600 text-white rounded-md flex space-x-3"
-          >
-            <IoPersonAddOutline />
-            <span>Ajouter</span>
-          </button>
         </form>
       </div>
     </>
