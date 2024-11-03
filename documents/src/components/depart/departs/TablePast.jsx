@@ -24,7 +24,11 @@ export default function TablePast() {
             <tr>
               <td>01</td>
               <td>
-                <div className=""></div>
+                <div className="flex items-center gap-5">
+                  <div className="imgWrapper">
+                    <img src="" alt="" />
+                  </div>
+                </div>
               </td>
               <td>Matundu</td>
               <td>Kabamba</td>
