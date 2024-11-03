@@ -40,7 +40,7 @@ export default function TablePast() {
               <td>M</td>
               <td>+243998724266</td>
               <td>Ass.Sec</td>
-              <td className="flex space-x-2 text-xl font-bold">
+              <td className="flex space-x-2 text-2xl font-bold">
                 <IoEyeOutline className="text-blue-500" />
                 <GrEdit className="text-green-500" />
                 <RiDeleteBinLine className="text-red-500" />
