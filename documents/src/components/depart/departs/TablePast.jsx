@@ -1,4 +1,4 @@
-
+import photo1 from "../../../assets/logo/RP1.jpeg"
 
 export default function TablePast() {
   return (
@@ -25,8 +25,8 @@ export default function TablePast() {
               <td>01</td>
               <td>
                 <div className="flex items-center gap-5">
-                  <div className="imgWrapper">
-                    <img src="" alt="" />
+                  <div className="imgWrapper overflow-hidden w-12 h-12 rounded-full">
+                    <img src={photo1} alt={photo1} />
                   </div>
                 </div>
               </td>
