@@ -38,8 +38,8 @@ export default function TablePast() {
               <td>Kabamba</td>
               <td>Robert</td>
               <td>M</td>
-              <td>+243 998724266</td>
-              <td>Ass. Sec</td>
+              <td>+243998724266</td>
+              <td>Ass.Sec</td>
               <td className="flex space-x-2 text-xl font-bold">
                 <IoEyeOutline className="text-blue-500" />
                 <GrEdit className="text-green-500" />
