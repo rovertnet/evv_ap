@@ -23,15 +23,16 @@ export default function TablePast() {
           <tbody>
             <tr>
               <td>01</td>
+              <td>
+                <div className=""></div>
+              </td>
               <td>Matundu</td>
               <td>Kabamba</td>
               <td>Robert</td>
               <td>M</td>
               <td>+243 998724266</td>
               <td>Ass. Sec</td>
-              <td className="flex space-x-2">
-                
-              </td>
+              <td className="flex space-x-2"></td>
             </tr>
           </tbody>
         </table>
