@@ -41,9 +41,9 @@ export default function TablePast() {
               <td>+243 998724266</td>
               <td>Ass. Sec</td>
               <td className="flex space-x-2 text-xl font-bold">
-                <IoEyeOutline className="" />
-                <GrEdit />
-                <RiDeleteBinLine />
+                <IoEyeOutline className="text-blue-500" />
+                <GrEdit className="text-green-500" />
+                <RiDeleteBinLine className="text-red-500" />
               </td>
             </tr>
           </tbody>
