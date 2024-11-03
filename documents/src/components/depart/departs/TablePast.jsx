@@ -12,11 +12,28 @@ export default function TablePast() {
               <th>Nom</th>
               <th>Post-nom</th>
               <th>Pré-nom</th>
+              <th>Sexe</th>
               <th>Téléphone</th>
               <th>Statut</th>
               <th>Options</th>
             </tr>
           </thead>
+
+          {/* le corps du tableau */}
+          <tbody>
+            <tr>
+              <td>01</td>
+              <td>Matundu</td>
+              <td>Kabamba</td>
+              <td>Robert</td>
+              <td>M</td>
+              <td>+243 998724266</td>
+              <td>Ass. Sec</td>
+              <td className="flex space-x-2">
+                
+              </td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </>
