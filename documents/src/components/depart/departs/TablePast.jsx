@@ -24,7 +24,7 @@ export default function TablePast() {
           </thead>
 
           {/* le corps du tableau */}
-          <tbody className="py-3">
+          <tbody className="">
             <tr>
               <td>01</td>
               <td>
