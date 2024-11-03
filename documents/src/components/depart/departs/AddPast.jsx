@@ -1,4 +1,4 @@
-import { Button, TextField } from "@mui/material";
+import { TextField } from "@mui/material";
 import { FaEye } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { IoPersonAddOutline } from "react-icons/io5";
@@ -72,7 +72,7 @@ export default function AddPast() {
             <div className="grid grid-cols-1 gap-5 py-5">
               <TextField
                 id="outlined-basic"
-                label="Téléphone"
+                label="Statut"
                 variant="outlined"
                 type="text"
                 className=" w-full py-3"
@@ -80,7 +80,7 @@ export default function AddPast() {
 
               <TextField
                 id="outlined-basic"
-                label="Téléphone"
+                label=""
                 variant="outlined"
                 type="file"
                 className=" w-full py-3"
