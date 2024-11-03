@@ -3,7 +3,7 @@ import photo1 from "../../../assets/logo/RP1.jpeg"
 export default function TablePast() {
   return (
     <>
-      <div className="bg-white w-full px-5 py-3 table-responsive">
+      <div className="bg-white w-full px-2 py-3 table-responsive">
         <table className="table w-[100%] table-striped">
           <thead className="table-light">
             <tr>
@@ -20,7 +20,7 @@ export default function TablePast() {
           </thead>
 
           {/* le corps du tableau */}
-          <tbody>
+          <tbody className="py-3">
             <tr>
               <td>01</td>
               <td>
