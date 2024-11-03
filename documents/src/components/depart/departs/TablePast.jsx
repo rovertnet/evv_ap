@@ -1,6 +1,7 @@
 import photo1 from "../../../assets/logo/RP1.jpeg";
 import { IoEyeOutline } from "react-icons/io5";
 import { GrEdit } from "react-icons/gr";
+import { RiDeleteBinLine } from "react-icons/ri";
 
 
 export default function TablePast() {
@@ -39,9 +40,10 @@ export default function TablePast() {
               <td>M</td>
               <td>+243 998724266</td>
               <td>Ass. Sec</td>
-              <td className="flex space-x-2">
-                <IoEyeOutline />
+              <td className="flex space-x-2 text-xl font-bold">
+                <IoEyeOutline className="" />
                 <GrEdit />
+                <RiDeleteBinLine />
               </td>
             </tr>
           </tbody>
