@@ -1,4 +1,7 @@
-import photo1 from "../../../assets/logo/RP1.jpeg"
+import photo1 from "../../../assets/logo/RP1.jpeg";
+import { IoEyeOutline } from "react-icons/io5";
+import { GrEdit } from "react-icons/gr";
+
 
 export default function TablePast() {
   return (
@@ -36,7 +39,10 @@ export default function TablePast() {
               <td>M</td>
               <td>+243 998724266</td>
               <td>Ass. Sec</td>
-              <td className="flex space-x-2"></td>
+              <td className="flex space-x-2">
+                <IoEyeOutline />
+                <GrEdit />
+              </td>
             </tr>
           </tbody>
         </table>
