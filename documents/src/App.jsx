@@ -74,6 +74,11 @@ function App() {
                   exact={true}
                   element={<AddPast />}
                 />
+                <Route
+                  path="/depart/addfidel"
+                  exact={true}
+                  element={<Addmembers />}
+                />
               </Routes>
             </div>
           </section>
