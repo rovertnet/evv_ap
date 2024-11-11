@@ -11,10 +11,12 @@ export default function Addmembers() {
           <h2 className="font-bold text-xl text-slate-700">
             Ajouter un membre
           </h2>
-          <Link to="/depart/membre">
+          <Link to="/membre">
             <FaEye className="text-2xl font-bold text-slate-900" />
           </Link>
         </div>
+
+        <div className=""></div>
 
         {/* form */}
         <form action="" method="POST" className=" pt-20 pb-5">
