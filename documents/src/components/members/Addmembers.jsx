@@ -11,7 +11,7 @@ export default function Addmembers() {
           <h2 className="font-bold text-xl text-slate-700">
             Ajouter un membre
           </h2>
-          <Link to="/depart/">
+          <Link to="/depart/membre">
             <FaEye className="text-2xl font-bold text-slate-900" />
           </Link>
         </div>
