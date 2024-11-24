@@ -4,7 +4,7 @@ export default function TablePast() {
   return (
     <>
       <div className="cards">
-        <div className="table-responsive px-7 py-10">
+        <div className="table-responsive">
           <table className="table w-[100%] table-striped">
             <thead>
               <tr>
