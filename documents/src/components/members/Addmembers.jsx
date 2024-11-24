@@ -16,10 +16,10 @@ export default function Addmembers() {
           </Link>
         </div>
 
-        <h2 className="font-extrabold text-2xl text-slate-800 text-center">Enregistrement</h2>
+        <p className="font-extrabold text-lg text-slate-800 text-center pt-10"></p>
 
         {/* form */}
-        <form action="" method="POST" className=" pt-20 pb-5">
+        <form action="" method="POST" className=" pt-10 pb-5">
           <div className=" border-[1px]">
             <div className="grid grid-cols-2 gap-5">
               <TextField
