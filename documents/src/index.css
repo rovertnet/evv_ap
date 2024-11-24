@@ -50,5 +50,3 @@ header .searchBox input{outline: none !important;}
 .addpast{background-color: #3872fa !important;}
 .addpast:hover{background-color: #0c43c3 !important;}
 .table th{font-size: 16px;font-weight: 800;color: #666666;}
-tr th:first-child{padding-left: 25px;}
-tr td:first-child{padding-left: 25px;}
