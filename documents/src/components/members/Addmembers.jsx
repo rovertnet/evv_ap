@@ -16,8 +16,8 @@ export default function Addmembers() {
           </Link>
         </div>
 
-        <p className="font-bold text-lg text-slate-400 pt-10 max-w-md flex justify-center items-center">
-          Inserez toutes les informations demandées sur le formulaire ci-dessous !
+        <p className="font-bold text-lg text-slate-400 pt-10 text-center">
+          Inserez toutes les informations demandées sur <br /> le formulaire ci-dessous !
         </p>
 
         {/* form */}
