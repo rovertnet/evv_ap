@@ -16,7 +16,7 @@ export default function Addmembers() {
           </Link>
         </div>
 
-        <div className=""></div>
+        
 
         {/* form */}
         <form action="" method="POST" className=" pt-20 pb-5">
