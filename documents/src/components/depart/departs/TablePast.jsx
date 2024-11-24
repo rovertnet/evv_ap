@@ -19,6 +19,20 @@ export default function TablePast() {
                 <th>Options</th>
               </tr>
             </thead>
+
+            <tbody>
+              <tr>
+                <td>01</td>
+                <td>Image</td>
+                <td>Matundu</td>
+                <td>Kabamba</td>
+                <td>Robert</td>
+                <td>M</td>
+                <td>+243 823444705</td>
+                <td>Serviteur</td>
+                <td>Tout</td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
