@@ -53,4 +53,4 @@ header .searchBox input{outline: none !important;}
 .cards{border-radius: 10px;}
 
 .table th{font-size: 16px;font-weight: 800;color: #666666;}
-.cards tr th:first-child{padding-left: 50px;}
+.cards tr th:first-child{padding-left: 25px;}
