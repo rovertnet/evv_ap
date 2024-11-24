@@ -5,7 +5,7 @@ export default function TablePast() {
     <>
       <div className="bg-white table-responsive">
         <table className="table w-[100%] table-striped">
-          <thead className="table-light">
+          <thead>
             <tr>
               <th>#</th>
               <th>Photo</th>
