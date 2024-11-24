@@ -3,7 +3,7 @@
 export default function TablePast() {
   return (
     <>
-      <div className="bg-white w-full px-2 py-3 table-responsive">
+      <div className="bg-white table-responsive">
         <table className="table w-[100%] table-striped">
           <thead className="table-light">
             <tr>
